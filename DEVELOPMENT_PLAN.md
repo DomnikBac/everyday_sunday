@@ -156,9 +156,12 @@ everyday_sunday/
 │   └── main.dart
 │
 ├── test/
+│   ├── integration/
 │   ├── unit/
-│   ├── widget/
-│   └── integration/
+│   │   └── domain/
+│   │        └── entities/
+│   │            └── supplement_test.dart
+│   └── widget/
 ├── assets/
 │   ├── images/
 │   ├── fonts/
@@ -173,7 +176,8 @@ everyday_sunday/
 ├── ARCHITECTURE.md
 ├── DEVELOPMENT_PLAN.md
 ├── CHANGELOG.md
-└── LEGAL_COMPLIANCE.md
+├── LEGAL_COMPLIANCE.md
+└── SUPPLEMENT_INFO.md
 
 🎨 ARCHITEKTUR-PRINZIPIEN
 Clean Architecture Layers
