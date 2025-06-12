@@ -6,34 +6,8 @@
 
 
 
-Supplements
-Inhalt
-⚙️ Fundament & Zellfunktion	3
-🧲 Magnesiumcitrat	4
-☀️ Vitamin D3 + K2 (MK-7)	10
-🧠 Vitamin-B-Komplex (aktiviert)	13
-🍊 Vitamin C Komplex (mit Bioflavonoiden)	16
-⚡ Coenzym Q10 (Ubiquinon / Ubiquinol)	19
-⚡ R-Alpha-Liponsäure (R-ALA)	22
-🧬 Omega-3-Komplex (EPA/DHA)	25
-🌿 Gerstengras (Pulver)	28
-🦠 Probiotikum	31
-🔥 Entzündungshemmung & Immunmodulation	34
-🔥 Kurkuma (Pulver)	35
-🧴 Schwarzkümmelöl (Nigella sativa)	38
-🛡️ Propolis	41
-🌿 Mariendistel-Komplex / Leberkomplex	44
-🍃 Ginkgo biloba (Blattextrakt)	47
-🧠 Block 3: Nervensystem & Stressachsen	50
-🧠 L-Tyrosin	51
-🧠 DL-Phenylalanin (DLPA)	54
-🛡️ Rhodiola Rosea (Rosenwurz)	57
-🛡️ Roter Ginseng Extrakt (Panax ginseng C.A. Meyer)	60
-🧠 5-HTP (5-Hydroxytryptophan)	63
-🧠 Hericium erinaceus (Löwenmähne / Lion’s Mane)	66
-🧠 Grüntee-Extrakt + L-Theanin	70
-🧠 GABA 600	73
-🧠 Baldrian-Extrakt (Valeriana officinalis)	76
+Supplements (Verzeichnis, unvollständig)
+
 ⚙️ Fundament & Zellfunktion
 (Basisversorgung – Mikronährstoffe, Energieproduktion & Mikrobiom)
 Dieser Block enthält alle Supplements, die deine biochemische Grundversorgung sichern – das heißt: Nährstoffe für Zellenergie, Enzymaktivierung, hormonelle Balance, Immunfunktion und Mikrobiom-Stabilität.Ohne diese Grundlagen funktionieren anregende, adaptogene oder immunaktive Supplements nicht zuverlässig.Die Substanzen wirken nicht immer spürbar, sind aber für alle anderen Wirkmechanismen essenziell.
