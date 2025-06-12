@@ -1,3 +1,6 @@
+# ⚠️ VERBINDLICHE SYSTEMREGEL
+
+Jede KI, jeder Entwickler, jede Entscheidung orientiert sich an diesem Plan.
 🚀 DEVELOPMENT_PLAN.md - Everyday Sunday Flutter App
 🎯 MISSION STATEMENT
 Ziel: Eine Flutter-App die Supplement-Tracking so einfach und intelligent macht, dass Nutzer jeden Tag gerne damit interagieren. Performance, Usability und Erweiterbarkeit stehen über allem.
