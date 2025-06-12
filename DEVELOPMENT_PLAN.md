@@ -169,8 +169,11 @@ everyday_sunday/
 │   └── DEPLOYMENT.md
 ├── pubspec.yaml
 ├── README.md
+├── AI_CONTEXT.md
+├── ARCHITECTURE.md
+├── DEVELOPMENT_PLAN.md
 ├── CHANGELOG.md
-└── DEVELOPMENT_PLAN.md
+└── LEGAL_COMPLIANCE.md
 
 🎨 ARCHITEKTUR-PRINZIPIEN
 Clean Architecture Layers
