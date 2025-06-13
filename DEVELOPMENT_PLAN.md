@@ -3,7 +3,12 @@
 Jede KI, jeder Entwickler, jede Entscheidung orientiert sich an diesem Plan.
 🚀 DEVELOPMENT_PLAN.md - Everyday Sunday Flutter App
 🎯 MISSION STATEMENT
-Ziel: Eine Flutter-App die Supplement-Tracking so einfach und intelligent macht, dass Nutzer jeden Tag gerne damit interagieren. Performance, Usability und Erweiterbarkeit stehen über allem.
+Ziel: Eine Flutter-App die Supplement-Tracking intelligent macht - 
+mit optionaler KI-Power für personalisierte Gesundheitsberatung.
+
+**Free:** Solides Tracking & regelbasierte Empfehlungen
+**Pro:** KI-gestützte Analyse & persönlicher Gesundheitsberater
+
 📋 DIESER PLAN IST GESETZ
 
 JEDE Codezeile muss diesem Plan folgen
@@ -62,17 +67,31 @@ everyday_sunday/
 │   │   │   ├── recommendation.dart
 │   │   │   ├── day_plan.dart
 │   │   │   ├── check_in.dart
+│   │   │   ├── user_profile.dart
+│   │   │   ├── user_subscription.dart
 │   │   │   └── week_stats.dart
 │   │   ├── repositories/
 │   │   │   ├── supplement_repository.dart  # abstract class
 │   │   │   ├── day_plan_repository.dart
 │   │   │   └── analytics_repository.dart
 │   │   └── usecases/
+│   │       ├── data/
+│   │       │   └── export_user_data_usecase.dart (DSGVO-konform)
+│   │       ├── onboarding/
+│   │       │   └── create_user_profile_usecase.dart
 │   │       ├── supplement/
-│   │       │   ├── calculate_recommendations_usecase.dart
-│   │       │   ├── track_supplement_intake_usecase.dart
-│   │       │   ├── get_supplement_history_usecase.dart
-│   │       │   └── analyze_supplement_effects_usecase.dart
+│   │       │   ├── inventory/          // "Mein Bestand"
+│   │       │   │  ├── track_supplement_intake_usecase.dart
+│   │       │   │  ├── get_supplement_history_usecase.dart
+│   │       │   │  └── analyze_supplement_effects_usecase.dart
+│   │       │   ├── suggestions/        // "Vorschläge"
+│   │       │   │   ├── discover_new_supplements_usecase.dart
+│   │       │   │   ├── filter_by_inventory_usecase.dart
+│   │       │   │   └── get_personalized_suggestions_usecase.dart
+│   │       │   └── recommendations/    // "Was nehme ich heute?" (kombiniert beide)
+│   │       │       ├── calculate_daily_recommendations_usecase.dart
+│   │       │       ├── explain_recommendation_reasoning_usecase.dart
+│   │       │       └── adjust_recommendations_by_context_usecase.dart
 │   │       ├── plan/
 │   │       │   ├── generate_day_plan_usecase.dart
 │   │       │   ├── update_meal_times_usecase.dart
@@ -358,6 +377,10 @@ Tasks:
   - [ ] Week Analytics
   - [ ] PDF Export
   - [ ] Notifications
+  - [ ] Free/Pro Feature Toggle
+  - [ ] KI-Integration für Pro User
+  - [ ] Upgrade-Flow implementieren
+  - [ ] A/B Testing für Regelbasiert vs. KI
 
 Output:
   - Smooth UX

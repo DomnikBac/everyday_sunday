@@ -24,6 +24,29 @@ Storage: Hive + SharedPreferences (nicht SQLite)
 UI Approach: Custom Widgets (nicht packages)
   Grund: Volle Kontrolle, konsistentes Design
 
+## 🎯 Free vs Pro Features
+
+### Free Version
+- Basis-Empfehlungen (regelbasiert)
+- Manuelles Tracking
+- Standard-Timing Vorschläge
+- Export-Funktion
+- Vordefinierte Supplement-Kombinationen
+
+### Pro Version (KI-powered)
+- KI-Analyse von Check-ins ("bin müde" → personalisierte Empfehlung)
+- Lernende Wirkungsanalyse
+- Kontext-sensitive Empfehlungen
+- Smart Scheduling basierend auf Tagesablauf
+- Persönliche Insights & Trends
+- Interaktions-Warnungen
+
+### Feature Toggles & Subscription Management
+Die App unterscheidet zwischen Free und Pro Features über ein 
+zentrales Feature-Flag-System. KI-Funktionen werden nur bei 
+aktiver Pro-Subscription freigeschaltet. Fallback auf regelbasierte 
+Logik für Free User garantiert volle Funktionalität.
+
 🏛️ System Architecture
 Layer Architecture
 ┌─────────────────────────────────────────────┐
@@ -298,11 +321,11 @@ dartclass ResponsiveBuilder extends StatelessWidget {
 
 🧪 Testing Architecture
 Test Pyramid
-         E2E Tests (10%)
-        /            \
-    Integration (30%) \
-   /                   \
-  Unit Tests (60%)      \
+      E2E Tests (10%)
+     /             \
+    Integration (30%)\
+   /                  \
+  Unit Tests (60%)     \
  /______________________\
 Testing Strategy
 dart// 1. Unit Tests - Domain Layer

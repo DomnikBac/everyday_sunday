@@ -20,6 +20,42 @@ enum SupplementForm {
   gummy,
 }
 
+/// Effect of the supplement
+enum SupplementEffect {
+  energy,
+  immunity,
+  mood,
+  focus,
+  sleep,
+  stress,
+  inflammation,
+  detox,
+  liver,
+  hormones,
+  skin,
+  digestion,
+  microbiome,
+  circulation,
+  neuroprotection,
+  antioxidant,
+  bloodsugar,
+  joints,
+  muscle,
+  anxiety,
+  relaxation,
+  vitality,
+  libido,
+  heart,
+  brain,
+  memory,
+  neuroplasticity,
+  alkaline,
+  antimicrobial,
+  mucosa,
+  pain,
+  motivation,
+}
+
 /// Core entity representing a supplement in the system
 @immutable
 class Supplement extends Equatable {
